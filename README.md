@@ -13,3 +13,10 @@ Then run:
 `pipenv shell`
 
 to create a virtual environment.
+
+Then 
+
+`pipenv install django`.
+
+Then `django-admin startproject pollingapp`
+
