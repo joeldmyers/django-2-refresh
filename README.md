@@ -20,3 +20,8 @@ Then
 
 Then `django-admin startproject pollingapp`
 
+then `cd pollingapp` and then `python manage.py runserver` to run the server.
+
+To use default migrations to set up tables, run `python manage.py migrate`
+
+Using SQLite to expedite.
