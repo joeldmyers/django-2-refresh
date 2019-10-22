@@ -4,6 +4,11 @@ from django.contrib import admin
 
 from .models import Question, Choice
 
+
+admin.site.site_header = "Joel's Polling Admin"
+admin.site.site_title = "Joel's Polling Admin Area"
+admin.site.index_title = "Welcome to the Polling admin area"
+
 class ChoiceInline(admin.TabularInline):
     model = Choice
     extra = 3
