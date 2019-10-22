@@ -1,2 +1,0 @@
-gunicorn==0.14.2
-django-heroku=2.0
